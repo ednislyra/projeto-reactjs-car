@@ -1,12 +1,9 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Routes from 'Routes';
 
-function App() {
-  return (
-    <div>
-      <h1>Carros Top</h1>
-    </div>
-  );
-}
+const App = () => {
+  return <Routes />;
+};
 
 export default App;
